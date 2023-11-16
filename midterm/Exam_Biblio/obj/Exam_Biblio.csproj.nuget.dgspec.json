@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\650357204\\Desktop\\IDE-TDD-ID\\midterm\\Exam_Biblio\\Exam_Biblio.csproj",
         "projectName": "Exam_Biblio",
         "projectPath": "C:\\Users\\650357204\\Desktop\\IDE-TDD-ID\\midterm\\Exam_Biblio\\Exam_Biblio.csproj",
-        "packagesPath": "C:\\Users\\650357204\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\650357204\\Desktop\\IDE-TDD-ID\\midterm\\Exam_Biblio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\650357204\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

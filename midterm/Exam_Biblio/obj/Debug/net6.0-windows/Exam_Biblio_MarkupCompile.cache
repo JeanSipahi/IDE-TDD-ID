@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 C:\Users\650357204\Desktop\IDE-TDD-ID\midterm\Exam_Biblio\obj\Debug\net6.0-windows\
-Exam_Biblio_afrasl4z_wpftmp
+Exam_Biblio
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\650357204\Desktop\IDE-TDD-ID\midterm\Exam_Biblio\App.xaml
 11407045341
 
-5268838996
-3901553425708
+3-1233169557
+195946435623
 MainWindow.xaml;
 
-True
+False
 
