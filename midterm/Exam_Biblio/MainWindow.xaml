@@ -1,0 +1,32 @@
+﻿<Window x:Class="Exam_Biblio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exam_Biblio"
+        mc:Ignorable="d"
+        Title="Window" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <!-- Grid with two columns for searchTextBox and FindButton -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Search TextBox -->
+                <TextBox x:Name="searchTextBox" Width="281" Text="" HorizontalAlignment="Left" Margin="69,0,0,0" />
+
+                <!-- Find Button -->
+                <Button Content="Find" Click="Find_Click" x:Name="FindButton" Width="112" HorizontalAlignment="Left" Margin="642,0,0,0"/>
+            </Grid>
+
+            <!-- DataGrid -->
+            <DataGrid x:Name="dta" AutoGenerateColumns="True" Visibility="Hidden" Margin="0,10,0,0"/>
+
+            <!-- Show All Books Button -->
+            <Button Content="Display All Books" Click="ShowAllBooks_Click" x:Name="ShowAllBooksButton" Width="124" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
